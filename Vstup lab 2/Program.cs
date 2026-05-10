@@ -7,7 +7,6 @@ namespace Vstup_lab_2
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-
             int choice;
             do
             {
@@ -28,7 +27,6 @@ namespace Vstup_lab_2
                         Console.Write("Програму завершено, дякую за користування!");
                         break;
                 }
-
             }
             while (choice != 0);
         }
@@ -81,7 +79,6 @@ namespace Vstup_lab_2
                     }
                 }
             }
-
             Console.WriteLine("Додатковий код: " + new string(bits));
         }
     }
